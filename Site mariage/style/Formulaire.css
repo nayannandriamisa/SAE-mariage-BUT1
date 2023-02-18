@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url("../images/fond.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navigation ul{
+    list-style-type: none;
+}
+
+.navigation li{
+    float: left;
+    width: 15%;
+    text-align: center;
+}
+
+.navigation ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.navigation{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(226, 75, 75);
+
+}
+
+.navigation a{
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    border-bottom: 3px solid rgb(226, 75, 75);
+    padding: 15px 0px;
+    transition: 0.2s;
+}
+
+.navigation a:hover{
+    background-color: rgb(201, 75, 75);;
+    color: white;
+    border-bottom: 3px solid;
+}
+
+.formulaire{
+    display: flex;
+    justify-content: center;
+    
+}
+
+form{
+    background-color: rgba(226, 75, 75,0.85) ;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+form label{
+    font-size: 28px;
+    color: white;
+}

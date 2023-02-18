@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <title>Formulaire</title>
+        <link rel="stylesheet" href="../style/Formulaire.css" >
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <nav class="navigation">
+            <ul>
+                <li><a href="../index.html">Acceuil</a></li>
+                <li><a href="Programme.html">Programme</a></li>
+                <li><a href="Menu.html ">Menu</a></li>
+                <li><a href="">Formulaire</a></li>
+            </ul>
+        </nav>
+
+        <div class="formulaire">
+            <form>
+                <label>
+                    Nom : <input type="text" name="nom">
+                </label><br><br>
+
+                <label>
+                    Prénom : <input type="text" name="prenom">
+                </label><br><br>
+
+                <label>
+                    E-mail : <input type="text" name="mail">
+                </label><br><br>
+
+                <label>
+                    Vous êtes un invité du côté de : 
+                    <br>
+                    <input type="radio" name="invite"> Rayane Chabane 
+                    <input type="radio" name="invite"> Marie-Agnès de la Reynerie
+                </label><br><br>
+
+                <label>
+                    A combien viendrez-vous au mariage? <br>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3 ou plus</option>
+                    </select>
+                </label><br><br>
+
+                <label>
+                    Comptez-vous venir pour quels jours? <br>
+                    <select>
+                        <option>Le 6 août uniquement</option>
+                        <option>Le 7 août uniquement</option>
+                        <option>Le 6 et le 7 août</option>
+                    </select>
+                </label><br><br>
+
+                <label>
+                    A quelle distance du <a href="programme.html">lieu de mariage</a> résidez-vous? <br>
+                    <input type="radio" name="distance"> Moins de 30km 
+                    <input type="radio" name="distance"> Entre 30 et 50km 
+                    <input type="radio" name="distance"> Plus de 50 km
+                </label><br><br>
+
+                <label>
+                    Avez-vous des allergies aux ingredients composants les plats qui figurent dans le <a href="menu.html">menu</a> ?<br>
+                    <input type="radio" name="allergie"> Oui <input type="radio" name="allergie"> Non
+                </label><br>
+
+                <label>
+                    Si oui, veuillez les préciser : <input type="text" name="allergies" row=2>
+                </label><br><br>
+
+                <label>
+                    Ajouter un commentaire personnalisé à destination des mariés: <br><textarea name="commentaire" rows="5" cols="100" placeholder="Vous pouvez écrire ici"></textarea>
+                </label>
+
+                <br><br><br>
+
+                <input id="envoyer" type="submit" value="Rendre le formulaire">
+
+                <br>
+            </form>
+        </div>
+    </body>
+</html>
