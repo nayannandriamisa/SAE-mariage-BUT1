@@ -41,6 +41,7 @@ body{
     color: white;
     border-bottom: 3px solid rgb(225, 215, 200);
     padding: 15px 0px;
+    transition: 0.2s;
 }
 
 .navigation a:hover{
